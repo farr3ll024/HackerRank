@@ -6,6 +6,7 @@ from Day3_ConditionalStatements import conditional_statements
 from Day4_ClassVsInstance import Person
 from Day5_Loops import loops
 from Day6_Review import review
+from Day7_Arrays import arrays
 
 #ProjectEuler
 from ProjectEuler.C1_MultiplesOf3And5 import sum_multiples
@@ -18,7 +19,9 @@ def main():
 #     conditional_statements()
 #     print(Person(4).age)
 #     loops()
-    review()
+#     review()
+    arrays()
+
 
 # ProjectEuler
 #     sum_multiples()
