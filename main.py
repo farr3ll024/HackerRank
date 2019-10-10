@@ -1,12 +1,12 @@
 # -- 30 Day Challenge --
-from Day0_HelloWorld import hello_world
-from Day1_DataTypes import data_types
-from Day2_Operators import operators
-from Day3_ConditionalStatements import conditional_statements
-from Day4_ClassVsInstance import Person
-from Day5_Loops import loops
-from Day6_Review import review
-from Day7_Arrays import arrays
+from Day30Challenge.Day0_HelloWorld import hello_world
+from Day30Challenge.Day1_DataTypes import data_types
+from Day30Challenge.Day2_Operators import operators
+from Day30Challenge.Day3_ConditionalStatements import conditional_statements
+from Day30Challenge.Day4_ClassVsInstance import Person
+from Day30Challenge.Day5_Loops import loops
+from Day30Challenge.Day6_Review import review
+from Day30Challenge.Day7_Arrays import arrays
 
 # -- ProjectEuler --
 from ProjectEuler.C1_MultiplesOf3And5 import sum_multiples
@@ -31,7 +31,7 @@ def main():
 #     sum_multiples()
 
 # -- Examples --
-    runner_up()
+    print(runner_up())
 
 if __name__ == "__main__":
     main()

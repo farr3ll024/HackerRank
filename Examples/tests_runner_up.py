@@ -8,6 +8,7 @@ class TestIsRunnerUp(unittest.TestCase):
     def test_is_runner_up_true(self):
         self.assertEqual(get_runner_up(n=5, arr=[2, 3, 6, 6, 5]), 5)
     # O(n) test
+    # future implementation
 
 
 if __name__ == '__main__':

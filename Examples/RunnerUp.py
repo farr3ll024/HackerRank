@@ -1,7 +1,7 @@
 def runner_up():
     n = int(input())
     arr = map(int, input().split())
-    get_runner_up(n, arr)
+    return get_runner_up(n, arr)
 
 # inline
 def get_runner_up(n, arr):
@@ -10,4 +10,3 @@ def get_runner_up(n, arr):
 # O(n) time
 def efficient_get_runner_up(n, arr):
     pass
-
